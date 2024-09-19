@@ -24,14 +24,14 @@ public class DynoConfiguration {
                 .withEndpointConfiguration(
                         new AwsClientBuilder.EndpointConfiguration(
                                 "dynamodb.ap-south-1.amazonaws.com",
-                                "ap-south-1"
+                                "ap-south-10"
                         )
                 )
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
                                 new BasicAWSCredentials(
                                         "AKIAZMJOMPPJY3NHZEER",
-                                        "dZtXF9oG7xiWPV05uZ7B6aGgCyRo3BrZvuuM1KJR"
+                                        "dZtXF9ejwekGgCyRo3BrZvuuM1KJR"
                                 )
                         )
                 )

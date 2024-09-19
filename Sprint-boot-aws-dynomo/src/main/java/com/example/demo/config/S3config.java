@@ -15,10 +15,10 @@ public class S3config {
 	    @Bean
 	    public AmazonS3 s3(){
 
-	        AWSCredentials awsCredentials=new BasicAWSCredentials("AKIAZMJOMPPJY3NHZEER","dZtXF9oG7xiWPV05uZ7B6aGgCyRo3BrZvuuM1KJR");
+	        AWSCredentials awsCredentials=new BasicAWSCredentials("AKIAZMJOMPerkjNHZEER","dZtXF9oG7xiWPjirefjCyRo3BrZvuuM1KJR");
 
 
-	        return AmazonS3ClientBuilder.standard().withRegion("ap-south-1").withCredentials(new AWSStaticCredentialsProvider(awsCredentials)).build();
+	        return AmazonS3ClientBuilder.standard().withRegion("ap-south-10").withCredentials(new AWSStaticCredentialsProvider(awsCredentials)).build();
 
 	    }
 }
