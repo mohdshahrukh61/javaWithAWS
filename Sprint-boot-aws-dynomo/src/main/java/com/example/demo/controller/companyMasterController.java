@@ -12,7 +12,7 @@ import com.example.demo.config.DynoConfiguration;
 import com.example.demo.entity.CompanyMaster1;
 import com.example.demo.repo.CompanyMasterRepository;
 
-@RestController
+@RestController  
 public class companyMasterController {
 	private DynoConfiguration configuration = new DynoConfiguration();
 	@Autowired
